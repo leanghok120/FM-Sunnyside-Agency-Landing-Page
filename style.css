@@ -71,6 +71,25 @@ a {
   cursor: pointer;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.hero-main-text {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 0.5rem;
+  margin-bottom: 80px;
+}
+
+.scroll-icon {
+  width: 40px;
+}
+
 .attribution {
   font-size: 18px;
   text-align: center;
