@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/pure-html-css-with-clean-transition-8_NtQZ8KaN)
+- Live Site URL: [Live Site](https://fm-sunnyside-agency-landing.netlify.app/)
 
 ## My process
 
