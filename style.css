@@ -34,6 +34,10 @@ a {
   font-weight: 400;
 }
 
+.gray {
+  color: hsl(210, 4%, 67%);
+}
+
 .section {
   display: block;
 }
@@ -69,6 +73,12 @@ a {
   height: 100%;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
+}
+
+@media (max-width: 680px) {
+  .feature article {
+    grid-template-columns: 1fr;
+  }
 }
 
 .hero {
@@ -165,12 +175,6 @@ a {
   transform: translateY(-0.35rem);
 }
 
-@media (max-width: 680px) {
-  .feature article {
-    grid-template-columns: 1fr;
-  }
-}
-
 .text-section {
   position: absolute;
 }
@@ -207,6 +211,54 @@ a {
 
 .photograph-text {
   color: hsl(198, 62%, 26%);
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75vh;
+  padding: 7rem 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 550px;
+}
+
+.testimonial-header {
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 375px;
+  height: 100%;
+}
+
+.testimonial-msg {
+  color: hsl(210, 4%, 40%);
+}
+
+.client-img {
+  width: 90px;
+  border-radius: 50px;
+}
+
+.client-name {
+  font-size: 25px;
+}
+
+.client-role {
+  font-size: 16px;
 }
 
 .attribution {
