@@ -11,6 +11,16 @@ body {
   height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 50px;
+}
+
 img {
   display: block;
   width: 100%;
@@ -35,9 +45,19 @@ a {
   display: grid;
 }
 
+.soft-yellow {
+  background-color: hsl(52, 86%, 86%);
+}
+
+.soft-red {
+  background-color: hsl(7, 71%, 90%);
+}
+
 .container {
   width: 100%;
   height: 100%;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
 
 .hero {
@@ -90,7 +110,46 @@ a {
   width: 40px;
 }
 
+.feature {
+  display: grid;
+}
+
+.feature article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vmax;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.feature-description {
+  color: rgb(121, 121, 121);
+  line-height: 1.3rem;
+}
+
+.feature-link {
+  display: grid;
+  justify-items: center;
+  font-family: "Fraunces", sans-serif;
+  color: black;
+  width: max-content;
+}
+
+.link-underline {
+  height: 0.6rem;
+  width: 110%;
+  border-radius: 5px;
+  transform: translateY(-0.35rem);
+}
+
 .attribution {
+  display: block;
   font-size: 18px;
   text-align: center;
 }
