@@ -299,8 +299,14 @@ a {
   font-size: 18px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
-  font-style: italic;
   font-weight: bold;
+  font-style: italic;
+  transition: all 0.2s;
+}
+
+.attribution a:hover {
+  color: white;
 }
