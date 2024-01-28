@@ -260,6 +260,40 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(167, 44%, 70%);
+  height: 40vh;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.footer-nav a {
+  color: hsl(167, 40%, 24%);
+  transition: all 0.2s;
+}
+
+.footer-nav a:hover {
+  color: white;
+}
+
+.socials-icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15rem;
+}
+
+.socials-icon img {
+  width: 20px;
+}
+
 .attribution {
   display: block;
   font-size: 18px;
